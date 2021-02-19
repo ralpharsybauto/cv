@@ -1,0 +1,54 @@
+/* Tags */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #bbe1fa;
+  text-decoration: none;
+}
+
+/* Heading */
+
+.big-heading {
+  font-weight: 800;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #3282b8;
+  color: #fff;
+}
+
+/* Header */
+
+#header {
+  text-align: justify;
+}
+
+.header-title {
+  font-weight: 700;
+}
+
+/* Footer */
+
+.footer-image {
+  border-radius: 100%;
+  width: 2rem;
+}
+/* .footer-copyright {
+  float: right;
+} */
+
+/* Container */
+
+.container-fluid {
+  padding: 1% 15%;
+}
