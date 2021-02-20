@@ -14,6 +14,16 @@ a:hover {
   text-decoration: none;
 }
 
+h5 {
+  font-weight: 700;
+}
+
+/* p {
+  margin-block-end: 0;
+} */
+
+/* Container */
+
 /* Heading */
 
 .big-heading {
@@ -22,15 +32,33 @@ a:hover {
 
 /* Sections */
 
+#summary {
+  margin-top: 1.5rem;
+}
+
 .colored-section {
   background-color: #3282b8;
   color: #fff;
+  padding: 2rem 15%;
+}
+
+.white-section {
+  padding: 1rem 15%;
 }
 
 /* Header */
 
-#header {
-  text-align: justify;
+.profile-photo {
+  border-radius: 100%;
+  float: left;
+  margin-right: 2rem;
+  width: 10rem;
+}
+
+/* Work Experience */
+
+.year-duration {
+  font-size: 0.8rem;
 }
 
 /* Footer */
@@ -43,8 +71,22 @@ a:hover {
   border-radius: 100%;
   width: 2rem;
 }
-/* Container */
 
-.container-fluid {
-  padding: 3% 15%;
+@media (max-width: 767px) {
+  #header {
+    text-align: center;
+  }
+
+  .profile-photo {
+    float: none;
+    margin: 0 0 1rem 0;
+  }
+
+  .big-heading {
+    font-size: 1.5rem;
+  }
+
+  .header-contact-text {
+    font-size: 0.8rem;
+  }
 }
