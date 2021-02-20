@@ -33,20 +33,16 @@ a:hover {
   text-align: justify;
 }
 
-.header-title {
-  font-weight: 700;
-}
-
 /* Footer */
+
+#footer {
+  font-size: 0.8rem;
+}
 
 .footer-image {
   border-radius: 100%;
   width: 2rem;
 }
-/* .footer-copyright {
-  float: right;
-} */
-
 /* Container */
 
 .container-fluid {
